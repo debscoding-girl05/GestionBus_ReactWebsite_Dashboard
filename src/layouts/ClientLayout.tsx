@@ -1,13 +1,11 @@
 // src/layouts/ClientLayout.tsx
 import { Outlet, Link } from "react-router-dom";
+import { Navbar } from "@/components/Client/NavBar/NavBar";
 
 const ClientLayout = () => {
   return (
     <div>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/services">Services</Link>
-      </nav>
+      <Navbar/>
       <main>
         <Outlet />
       </main>
