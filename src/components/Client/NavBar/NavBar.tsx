@@ -45,7 +45,7 @@ export const Navbar = () => {
             <DropdownMenuTrigger className=" selectItems  text-white cursor-pointer">
               Services
             </DropdownMenuTrigger>
-            <DropdownMenuContent className="bg-[#0f172a] text-white rounded-md shadow-lg">
+            <DropdownMenuContent className="bg-[#0f172a] text-white rounded-md shadow-lg mt-5">
               <DropdownMenuItem asChild className="selectMenu">
                 <Link to="/services/reservation" className="dropdown-item">
                   Service 1
@@ -69,10 +69,10 @@ export const Navbar = () => {
         </li>
       </ul>
       <div className="flex mr-8 connect_avatar">
-        <Button asChild className="bg-blue-700">
+        <Button asChild className="bg-purple-500">
           <Link
             to="/login"
-            className="text-white rounded-xl mr-2  hover:bg-blue-500"
+            className="text-white rounded-xl mr-2  hover:bg-blue-400"
           >
             SE CONNECTER
           </Link>

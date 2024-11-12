@@ -2,13 +2,15 @@ nav {
     display:flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #0f172a;
+    background-color: #9108cc;
     position: sticky;
     top:0;
     z-index: 100;
 }
 nav ul {
     display: flex;
+    gap: 2rem;
+    justify-content: center;
    
 }
 nav ul li {
@@ -23,6 +25,7 @@ nav ul li a {
     margin: 0 0.8rem;
     border-radius: 0.5rem;
     font-size: medium;
+   
   
 }
 nav .title {
@@ -37,12 +40,12 @@ nav .title {
 
 
 .active {
-    background-color: #1d4ed8;
+    background-color: #24086b;
     
 }
 
 nav ul li a:not(.active):hover {
-   background-color: #172554;
+   background-color: #7d57de;
     padding: 4px;
     transition: all 0.2s ease;
     border-radius: 4px;
@@ -75,12 +78,14 @@ nav .menu span {
     text-transform: uppercase;
     margin-top:8px;
     width: 100%;
+    z-index: 100;
 }
 .selectItems:not(.active):hover {
-    background-color: #172554;
+    background-color: #7d57de;
     transition: all 0.2s ease;
     border-radius: 4px;
-    padding:4px
+    padding:4px;
+   
 }
 .selectMenu:not(.active):hover {
     background-color: #172554;

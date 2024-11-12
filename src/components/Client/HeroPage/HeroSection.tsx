@@ -11,10 +11,10 @@ const HeroSection = () => {
         <video src={Video} autoPlay loop muted></video>
       </div>
       <div className="sectionText">
-        <h1 className="font-extrabold text-5xl text-center">
+        <h1 className="font-extrabold text-5xl text-center align-middle">
           Voyagez A Travers les Horizons avec Nous
         </h1>
-        <p>Decouvrez et visitez les merveilles du Continent</p>
+        <p className='align-middle w-[100%]'>Decouvrez et visitez les merveilles du Continent</p>
         <Button className="bg-blue-800  rounded-xl px-5 py-3 text-center 
         hover:bg-blue-600 font-semibold">
           RESERVEZ

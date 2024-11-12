@@ -7,7 +7,8 @@ import Services from "./src/Pages/Client/services/Services";
 import DashboardHome from "./src/Pages/Dashboard/Home";
 import Settings from "./src/Pages/Dashboard/Settings";
 import About from "@/Pages/Client/About";
-import { Contact } from "lucide-react";
+import Contact from "@/Pages/Client/Contact";
+
 
 const AppRouter = () => (
   <Router>
@@ -15,7 +16,7 @@ const AppRouter = () => (
       {/* Client Routes */}
       <Route path="/" element={<ClientLayout />}>
         <Route index element={<Home />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/about" element={<About/>} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/services" element={<Services />} />
       </Route>
