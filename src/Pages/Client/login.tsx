@@ -31,9 +31,9 @@ const Login = () => {
         </form>
         <div className="flex items-center justify-center space-x-4 mt-4">
           <span className="text-gray-600">Or login with</span>
-          <img src="/path/to/apple-icon.png" alt="Apple" className="w-8 h-8" />
-          <img src="/path/to/google-icon.png" alt="Google" className="w-8 h-8" />
-          <img src="/path/to/facebook-icon.png" alt="Facebook" className="w-8 h-8" />
+          <img src="/path/to/apple.jpeg" alt="Apple" className="w-8 h-8" />
+          <img src="/path/to/google.jpge" alt="Google" className="w-8 h-8" />
+          <img src="/path/to/facebook.jpeg" alt="Facebook" className="w-8 h-8" />
         </div>
         <div className="text-center mt-4 text-gray-600">
           Doesn’t have an account on Travel?{' '}

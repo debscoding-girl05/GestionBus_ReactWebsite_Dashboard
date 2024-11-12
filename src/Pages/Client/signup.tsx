@@ -3,7 +3,7 @@ import React from 'react';
 const SignUp = () => {
   return (
     <div className="flex flex-col h-screen items-center justify-center bg-gray-200">
-      <img src="/path/to/logo.png" alt="Travel Logo" className="w-24 h-24 mb-4" />
+      <img src="/path/to/logo.jpeg" alt="Travel Logo" className="w-24 h-24 mb-4" />
       <h2 className="text-2xl font-bold text-purple-700 mb-4">Sign up</h2>
       <div className="bg-white p-6 rounded-lg shadow-md w-80">
         <form className="space-y-4">
