@@ -9,7 +9,6 @@ import DashboardLayout from "./src/layouts/DashboardLayout";
 import Home from "./src/Pages/Client/Home";
 import About from "@/Pages/Client/About";
 import Contact from "@/Pages/Client/Contact";
-import SignUp from "@/Pages/Client/signup";
 import Reserve from "@/Pages/Client/services/Reserve";
 import StepWiz from "@/components/Client/StepWizard/Steps/StepWiz";
 import Courrier from "@/Pages/Client/services/Courrier";
@@ -33,8 +32,6 @@ const AppRouter = () => (
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/services/reservation" element={<Reserve />} />
-        
-        <Route path="/signup" element={<SignUp />} />
         <Route path="/services/courrier" element={<Courrier />} />
         <Route path="/services/colis" element={<Colis />} />
         <Route path="/services/locationBus" element={<LocationBus />} />
