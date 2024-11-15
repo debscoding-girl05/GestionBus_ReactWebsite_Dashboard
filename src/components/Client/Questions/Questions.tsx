@@ -1,4 +1,3 @@
-import * as React from "react";
 import { useState } from "react";
 import { FaPlus, FaMinus } from "react-icons/fa"; 
 

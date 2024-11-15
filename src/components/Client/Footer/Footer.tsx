@@ -1,10 +1,9 @@
-import React from "react";
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom"; // Importing Link for routing
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r from-[#6A1B9A] via-[#8E24AA] to-[#9C4D99] text-white py-10 mt-10 bottom-0">
+    <footer className="bg-gradient-to-r from-[#6A1B9A] via-[#8E24AA] to-[#9C4D99] text-white py-10 mt-10 bottom-0 static">
       <div className="container mx-auto px-6 md:px-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Logo Section */}

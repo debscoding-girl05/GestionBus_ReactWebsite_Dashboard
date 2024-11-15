@@ -1,5 +1,4 @@
-import React from "react";
-import { FaBus, FaTruck, FaBox, FaHandHoldingHeart } from "react-icons/fa"; // Updated icons
+import { FaBus, FaShippingFast, FaBox, FaKey } from "react-icons/fa"; // Updated icons
 
 const Services = () => {
   return (
@@ -21,7 +20,7 @@ const Services = () => {
         {/* Service 2: Courier Delivery */}
         <div className="flex flex-col items-center text-center bg-white bg-opacity-70 p-8 rounded-xl shadow-lg transition-all duration-300 ease-in-out hover:scale-105">
           <div className="w-20 h-20 flex items-center justify-center rounded-full bg-blue-200 p-4 mb-4">
-            <FaTruck className="text-3xl text-blue-600" />
+            <FaShippingFast className="text-3xl text-blue-600" />
           </div>
           <p className="text-lg font-semibold text-black">
             Livraison de Courrier
@@ -38,12 +37,13 @@ const Services = () => {
           </p>
         </div>
 
-        {/* Service 4: General Service (Default Icon) */}
+        {/* Service 4: Renting a Bus */}
         <div className="flex flex-col items-center text-center bg-white bg-opacity-70 p-8 rounded-xl shadow-lg transition-all duration-300 ease-in-out hover:scale-105">
           <div className="w-20 h-20 flex items-center justify-center rounded-full bg-blue-200 p-4 mb-4">
-            <FaHandHoldingHeart className="text-3xl text-blue-600" />
+            <FaKey className="text-3xl text-blue-600" />{" "}
+            {/* Icon for renting */}
           </div>
-          <p className="text-lg font-semibold text-black">Service Général</p>
+          <p className="text-lg font-semibold text-black">Location de Bus</p>
         </div>
       </div>
     </div>

@@ -1,5 +1,3 @@
-import React from "react";
-import image2 from "../../../assets/images/3d-truck.png";
 import image3 from "../../../assets/images/bus.jpg";
 import {
   AiOutlineSafety,

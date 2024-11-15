@@ -1,4 +1,3 @@
-import React from 'react'
 import { AiOutlineSwapRight } from "react-icons/ai";
 import Video from "../../../assets/Videos/videoBg.mp4"
 import { Button } from "@/components/ui/button";

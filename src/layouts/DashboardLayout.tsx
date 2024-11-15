@@ -1,18 +1,34 @@
-// src/layouts/DashboardLayout.tsx
-import { Outlet, Link } from "react-router-dom";
+// app/layout.tsx
 
-const DashboardLayout = () => {
+import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar"; // Import the necessary sidebar components
+import { AppSidebar } from "@/components/Dashboard/AppSidebar";
+
+export default function DashboardLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <div>
-      <nav>
-        <Link to="/dashboard">Dashboard Home</Link>
-        <Link to="/dashboard/settings">Settings</Link>
-      </nav>
-      <main>
-        <Outlet />
-      </main>
-    </div>
-  );
-};
+    <SidebarProvider>
+      <div className="flex flex-col lg:flex-row h-screen bg-gray-100">
+        {/* Sidebar */}
+        <AppSidebar />
 
-export default DashboardLayout;
+        {/* Main Content */}
+        <div className="flex-1 p-6">
+          {/* Sidebar Trigger for Mobile */}
+          <SidebarTrigger>
+            <button className="lg:hidden text-white bg-purple-500 p-2 rounded-full mb-4">
+              <span className="h-6 w-6">☰</span> {/* This is your menu icon */}
+            </button>
+          </SidebarTrigger>
+
+          {/* Content Area */}
+          <div className="lg:flex lg:flex-1">
+            {children} {/* This will render the nested routes */}
+          </div>
+        </div>
+      </div>
+    </SidebarProvider>
+  );
+}
