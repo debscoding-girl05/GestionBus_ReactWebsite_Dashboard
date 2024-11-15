@@ -8,7 +8,7 @@ import Commentaires from "@/components/Client/Commentaires/Commentaires";
 import Questions from "@/components/Client/Questions/Questions";
 import Footer from "@/components/Client/Footer/Footer";
 import Portfolio from "@/components/Client/Portfolio/Portfolio";
-import Services from "@/components/Client/Services/Services";
+import Services from "@/components/Client/ServicesComp/ServicesComp";
 
 const ClientLayout = () => {
   // Get the current location to conditionally render content
